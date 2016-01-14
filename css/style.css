@@ -1,31 +1,27 @@
 .logo {
-    text-align: center;
+  text-align: center;
 }
 #col-ft, #col-sc, #col-td {
-    margin-bottom: 15px;
-    margin-top: 15px;
-    border: 1px solid black;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  border: 1px solid black;
 }
 h2{
-    text-align: left;
+  text-align: left;
 }
 #footer {
-    border-top: 1px solid black;
-    text-align: left;
-    
-    padding-left:0;
-    padding-right:0;
+  border-top: 1px solid black;
+  text-align: left;
+  padding-left: 0;
+  padding-right: 0;
 }
 #button {
-    text-align:right;
-        padding: 0;
-       
-}
-#header {
- text-align:center;
+  text-align: right;
+  padding: 0;
 }
 .list-group-item {
-    text-decoration: none;
-    ;
+  text-decoration: none;
 }
-
+li {
+  list-style-type: none; /* Убираем маркеры */
+}

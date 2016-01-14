@@ -26,7 +26,7 @@
   vertical-align: -15%;
 }
 .fa-2x {
-  font-size: 2em;
+  font-size: 3em;
 }
 .fa-3x {
   font-size: 3em;
@@ -2086,18 +2086,27 @@
 }
 
 @media (max-width: 719px) and (min-width: 480px) {
-.fa {
+...fa {
     display: none;
-    }
+  }
 }
 @media (max-width: 959px) and (min-width: 720px) {
-.fa {
+...fa {
     display: none;
-    }
+  }
 }
 @media (max-width: 1279px) and (min-width: 960px) {
-.fa {
-    ;
-   color: black;
-    text-decoration: none;}
+...fa {
+    font-size: 3em;
+    color: black;
+    text-decoration: none;
+    -moz-transition: background-color 0.8s 0.1s ease;
+    -o-transition: background-color 0.8s 0.1s ease;
+    -webkit-transition: background-color 0.8s 0.1s ease;
+    cursor: pointer;
+  }
+...fa:hover {
+    background-color: white;
+    color: #333;
+  }
 }
